@@ -13,10 +13,10 @@
       <img class="slider-img" alt="Dinamic Slider Image" :src="currentImage" />
 
       <div class="controls-slider">
-        <button @click="prev" class="controls-slider-button-prev" aria-labelledby="button slider">
+        <button @click="prev" class="controls-slider-button-prev" aria-label="prev-slider">
           <img src="images/icon-prev.svg" alt="Button prev">
         </button>
-        <button @click="next" class="controls-slider-button-next" aria-labelledby="button slider">
+        <button @click="next" class="controls-slider-button-next" aria-label="next-slider">
           <img src="images/icon-next.svg" alt="Button next">
         </button>
       </div>
