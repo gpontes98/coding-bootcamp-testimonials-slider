@@ -9,15 +9,15 @@
     </div>
 
     <div class="slider">
-      <img  class="pattern-bg" src="images/pattern-bg.svg" alt="">
-      <img class="slider-img" :src="currentImage" />
+      <img  class="pattern-bg" src="images/pattern-bg.svg" alt="Pattern Background">
+      <img class="slider-img" alt="Dinamic Slider Image" :src="currentImage" />
 
       <div class="controls-slider">
-        <button @click="prev" class="controls-slider-button-prev">
-          <img src="images/icon-prev.svg" alt="">
+        <button @click="prev" class="controls-slider-button-prev" aria-labelledby="button slider">
+          <img src="images/icon-prev.svg" alt="Button prev">
         </button>
-        <button @click="next" class="controls-slider-button-next">
-          <img src="images/icon-next.svg" alt="">
+        <button @click="next" class="controls-slider-button-next" aria-labelledby="button slider">
+          <img src="images/icon-next.svg" alt="Button next">
         </button>
       </div>
     </div>
